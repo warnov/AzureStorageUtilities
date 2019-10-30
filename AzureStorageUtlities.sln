@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureStorageUtilities.PageToBlockMover", "AzureStorageUtlities.PageToBlockMover\AzureStorageUtilities.PageToBlockMover.csproj", "{85D74243-C34A-4A95-A7C1-2DD795609832}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureStorageUtilities.PageToBlockMover.BatchCreator", "AzureStorageUtilities.PageToBlockMover.BatchCreator\AzureStorageUtilities.PageToBlockMover.BatchCreator.csproj", "{6D4551A5-C48F-4A76-9B70-7DF38EA71509}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureStorageUtilities.PageToBlockMover.Common", "AzureStorageUtilities.PageToBlock.Common\AzureStorageUtilities.PageToBlockMover.Common.csproj", "{30BBCE64-6B0A-4803-B077-608D28E2C9A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureStorageUtilities.PageToBlockMover.BatchWorker", "AzureStorageUtilities.PageToBlockMover.BatchWorker\AzureStorageUtilities.PageToBlockMover.BatchWorker.csproj", "{5624D800-FD26-4855-86A8-5409D0A79EFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureStorageUtilities.Tester.Console", "AzureStorageUtilities.Tester.Console\AzureStorageUtilities.Tester.Console.csproj", "{82447E6F-4D8E-4B1B-8649-E1DABA95E4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageUtlities.MultipleFilesDownloader", "AzureStorageUtlities.MultipleFilesDownloader\AzureStorageUtlities.MultipleFilesDownloader.csproj", "{57E6ACDC-E370-4269-9C1F-70413D33417B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85D74243-C34A-4A95-A7C1-2DD795609832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D74243-C34A-4A95-A7C1-2DD795609832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D74243-C34A-4A95-A7C1-2DD795609832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D74243-C34A-4A95-A7C1-2DD795609832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4551A5-C48F-4A76-9B70-7DF38EA71509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4551A5-C48F-4A76-9B70-7DF38EA71509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4551A5-C48F-4A76-9B70-7DF38EA71509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4551A5-C48F-4A76-9B70-7DF38EA71509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30BBCE64-6B0A-4803-B077-608D28E2C9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BBCE64-6B0A-4803-B077-608D28E2C9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BBCE64-6B0A-4803-B077-608D28E2C9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BBCE64-6B0A-4803-B077-608D28E2C9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5624D800-FD26-4855-86A8-5409D0A79EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5624D800-FD26-4855-86A8-5409D0A79EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5624D800-FD26-4855-86A8-5409D0A79EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5624D800-FD26-4855-86A8-5409D0A79EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82447E6F-4D8E-4B1B-8649-E1DABA95E4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82447E6F-4D8E-4B1B-8649-E1DABA95E4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82447E6F-4D8E-4B1B-8649-E1DABA95E4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82447E6F-4D8E-4B1B-8649-E1DABA95E4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E6ACDC-E370-4269-9C1F-70413D33417B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E6ACDC-E370-4269-9C1F-70413D33417B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E6ACDC-E370-4269-9C1F-70413D33417B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E6ACDC-E370-4269-9C1F-70413D33417B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CB48223-F24C-46BF-8176-4BE4B0A0728C}
+	EndGlobalSection
+EndGlobal
